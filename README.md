@@ -46,3 +46,7 @@
 
     * Balsamiq was used to create the wireframes during the design process.
 
+* [Google Fonts](https://fonts.google.com/)
+
+    * Google Fonts was used to obtain the Roboto Condensed font family.
+
