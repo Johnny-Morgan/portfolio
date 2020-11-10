@@ -2,9 +2,19 @@
 
 ## User Experience (UX)
 
-### Wireframes
+* ### User Stories
 
-* The wireframes for this project can be found [here](https://johnny-morgan.github.io/portfolio/).
+    1. As a new visitor to the website, I want to be able to easily navigate throughout the website to find content.
+    2. As a new visitor to the website, I want to easily understand the main purpose of the site and learn more about the site owner.
+    3. As a new visitor to the website, I want to be able to view the site owners portfolio of work.
+    4. As a new visitor to the website, I want to be able to view and download the site owners CV.
+    5. As a new visitor to the website, I want to be able to obtain the site owners contact details and/or send them a messsage through the website.
+    6. As a new visitor to the website, I want to locate the site owners social media links as well as their GitHub and LinkedIn pages.
+
+
+* ### Wireframes
+
+    * The wireframes for this project can be found [here](https://github.com/Johnny-Morgan/portfolio/tree/master/assets/docs).
 
 ## Technologies Used
 
