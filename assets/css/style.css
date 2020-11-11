@@ -3,3 +3,35 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+.navbar {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+.home-container {
+    height: 100vh;
+    background: url(../images/mountain-background.jpg) no-repeat bottom right fixed; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.home-header {
+    color: #fff;
+}
+
+.hero-role {
+    color: #e7e6e6;
+    margin-top: 1rem;
+}

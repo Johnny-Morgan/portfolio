@@ -1,5 +1,6 @@
 # [Portfolio John Morgan](https://johnny-morgan.github.io/portfolio/)
 
+
 ## User Experience (UX)
 
 * ### User Stories
@@ -15,6 +16,7 @@
 * ### Wireframes
 
     * The wireframes for this project can be found [here](https://github.com/Johnny-Morgan/portfolio/tree/master/assets/docs).
+
 
 ## Technologies Used
 
@@ -50,3 +52,9 @@
 
     * Google Fonts was used to obtain the Roboto Condensed font family.
 
+
+## Credits
+
+### Photos
+
+* The background photo for the home section was taken from [StockSnap](https://pixabay.com/photos/guy-man-working-laptop-computer-2618928/) on pixabay.com.
