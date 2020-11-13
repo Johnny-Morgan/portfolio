@@ -17,6 +17,12 @@
 
     * The wireframes for this project can be found [here](https://github.com/Johnny-Morgan/portfolio/tree/master/assets/docs).
 
+* ### Color Scheme
+
+    I used a blue steel color scheme for this project which I obtained from [schemecolor](https://www.schemecolor.com/blue-steel-color-scheme.php#download). 
+
+    ![Image](assets/images/palette.png)
+
 
 ## Technologies Used
 
@@ -52,6 +58,9 @@
 
     * Google Fonts was used to obtain the Roboto Condensed font family.
 
+* [Font Awesome](https://fontawesome.com/)
+
+    * Font Awesome was used to obtain the icons used in the Contact Me section.
 
 ## Credits
 

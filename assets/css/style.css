@@ -32,8 +32,19 @@ body {
 }
 
 .hero-role {
-    color: #e7e6e6;
+    color: #B0B0B0;
     margin-top: 1rem;
+}
+
+
+/******COLORS******/
+
+.light-blue {
+    background-color: #B6D4E7; 
+}
+
+.light-grey {
+    background-color: #EBEBEB; 
 }
 
 
