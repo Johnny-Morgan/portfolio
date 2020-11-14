@@ -67,3 +67,7 @@
 ### Photos
 
 * The background photo for the home section was taken from [StockSnap](https://pixabay.com/photos/guy-man-working-laptop-computer-2618928/) on pixabay.com.
+
+### Code
+
+* The CSS code for the contact form was taken from the YouTube channel [Web dev](https://www.youtube.com/watch?v=s6rF1Josk9M&ab_channel=Webdev) and edited.
