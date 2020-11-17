@@ -9,8 +9,26 @@ body {
 /******ICONS******/
 
 .icon {
-  font-size: 150%;
+  font-size: 175%;
   color: #4682b4;
+}
+
+/******BUTTONS******/
+
+.button-blue {
+  background: #4682b4;
+  color: #ebebeb;
+  border-radius: 3px;
+  letter-spacing: 2px;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.button-blue:hover {
+  color: #b6d4e7;
+  transition: 0.3s;
+  text-decoration: none;
 }
 
 /******COLORS******/
@@ -29,7 +47,7 @@ body {
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
 }
 
-/******HOME ******/
+/******HOME******/
 
 .home-container {
   height: 100vh;
@@ -63,7 +81,22 @@ body {
   font-size: 200%;
 }
 
-/******CONTACT FORM******/
+/******ABOUT******/
+
+.photo {
+  padding-top: 3rem;
+}
+
+/******CONTACT ME******/
+
+.contact-details {
+  font-size: 18px;
+}
+
+.contact-details i,
+.contact-details p {
+  padding: 1rem;
+}
 
 /* CREDIT FOR CONTACT FORM CSS - Web dev YouTube Channel - Responsive Contact Form with Floating Label Animation Using Html, CSS and Bootstrap 
 https://www.youtube.com/watch?v=s6rF1Josk9M&ab_channel=Webdev */
@@ -164,5 +197,11 @@ https://www.youtube.com/watch?v=s6rF1Josk9M&ab_channel=Webdev */
 
   .hero-role {
     font-size: 150%;
+  }
+}
+
+@media (max-width: 767px) {
+  .photo {
+    padding: 0 0 2rem;
   }
 }
