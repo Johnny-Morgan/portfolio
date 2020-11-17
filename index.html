@@ -63,7 +63,7 @@
     <!-- End Navigation -->
 
     <!-- Home -->
-    <div class="container-fluid home-container">
+    <section class="container-fluid home-container">
       <div class="opaque-overlay"></div>
       <div class="row">
         <div class="col-12">
@@ -71,11 +71,11 @@
           <p class="hero-role">Full Stack Software Developer</p>
         </div>
       </div>
-    </div>
+    </section>
     <!-- End Home -->
 
     <!-- About -->
-    <div id="about" class="light-blue">
+    <section id="about" class="light-blue">
       <div class="col-12">
         <h1 class="text-center pt-5">About Me</h1>
         <hr class="divider" />
@@ -119,84 +119,83 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- End About -->
 
     <!-- Portfolio -->
-    <div id="portfolio" class="light-grey">
+    <section id="portfolio" class="light-grey">
       <div class="col-12">
         <h1 class="text-center pt-5">Portfolio</h1>
         <hr class="divider" />
       </div>
 
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <img
-              src="assets/images/screenshot1.png"
-              alt="Map of mountains"
-              class="w-100 rounded image"
-            />
-            <h4 class="my-4">PyQt5 Project</h4>
-            <p>
+      <div class="card-deck px-5 py-5">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="assets/images/screenshot1.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">PyQt5 Project</h5>
+            <p class="card-text py-2">
               A desktop application that stores the mountains I have climbed in
               a SQLite database and displays them in a table. A map of the
               mountains can be generated in OpenStreetMap.
             </p>
             <a
               href="https://github.com/Johnny-Morgan/mountains"
-              class="btn btn-outline-primary mb-4"
-              target="_blank"
+              class="button-blue"
               >Source Code</a
             >
           </div>
-
-          <div class="col-md-4 mb-4">
-            <img
-              src="assets/images/screenshot2.png"
-              alt="Screenshot of statistics"
-              class="w-100 rounded"
-            />
-            <h4 class="my-4">Django Project</h4>
-            <p>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="assets/images/screenshot2.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Django Project</h5>
+            <p class="card-text py-2">
               A web application built with the Django Framework. The app allows
               the user to add mountains and hikes and displays statistics sush
               as the number of mountains climbed or the average hike length.
             </p>
             <a
               href="https://github.com/Johnny-Morgan/django-projects/tree/master/mountains"
-              class="btn btn-outline-primary mb-4"
-              target="_blank"
+              class="button-blue"
               >Source Code</a
             >
           </div>
-
-          <div class="col-md-4 mb-4">
-            <img
-              src="assets/images/screenshot3.png"
-              alt="Game screenshot"
-              class="w-100 rounded"
-            />
-            <h4 class="my-4">Android Project</h4>
-            <p>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="assets/images/screenshot3.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Android Project</h5>
+            <p class="card-text py-3">
               A brain training game that asks the user to solve a series of
               random maths questions and displays their score on the screen. The
               game ends when the timer runs out.
             </p>
             <a
               href="https://github.com/Johnny-Morgan/Android-apps/tree/master/Brain%20Trainer"
-              class="btn btn-outline-primary mb-4"
-              target="_blank"
+              class="button-blue"
               >Source Code</a
             >
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- End Portfolio -->
 
     <!-- Contact -->
-    <div id="contact" class="light-blue">
+    <section id="contact" class="light-blue">
       <div class="col-12">
         <h1 class="text-center pt-5">Contact Me</h1>
         <hr class="divider" />
@@ -260,7 +259,7 @@
                     <input
                       type="submit"
                       value="Send Message"
-                      class="submit-btn"
+                      class="button-blue"
                     />
                   </div>
                 </div>
@@ -269,7 +268,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- End Contact -->
     <!-- Footer-->
     <footer class="bg-dark">
