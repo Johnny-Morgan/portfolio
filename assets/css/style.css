@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /******GENERAL******/
@@ -12,6 +19,7 @@ body {
 h1 {
   font-size: 3rem;
   font-weight: 400;
+  letter-spacing: 1px;
 }
 
 section {
@@ -28,20 +36,45 @@ section {
 
 /******BUTTONS******/
 
-.button-blue {
-  background: #4682b4;
-  color: #ebebeb;
+.button {
   border-radius: 3px;
   letter-spacing: 2px;
   padding: 1rem 2rem;
-  border: none;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
-.button-blue:hover {
-  color: #b6d4e7;
+.button:hover {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
   text-decoration: none;
+}
+
+.button-solid {
+  background: #4682b4;
+  color: #ebebeb;
+}
+
+.button-solid:hover {
+  color: #b6d4e7;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button-outline {
+  background: #fff;
+  color: #4682b4;
+  border: 2px solid #4682b4;
+}
+
+.button-outline:hover {
+  color: #b6d4e7;
+  background: #4682b4;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 
 /******COLORS******/
@@ -57,7 +90,18 @@ section {
 /******NAVIGATION******/
 
 .navbar {
+  -webkit-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+}
+
+.navbar-brand {
+  letter-spacing: 3px;
+  font-size: 1.8rem;
+}
+
+.navbar .button {
+  padding: 0.5rem 1rem;
 }
 
 /******HOME******/
@@ -66,8 +110,14 @@ section {
   background: url(../images/mountain-background.jpg) no-repeat bottom right
     fixed;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   position: relative;
 }
@@ -84,19 +134,24 @@ section {
 .home-header {
   font-size: 500%;
   color: #ebebeb;
-  margin: 0;
+  margin-bottom: 2.5rem;
+  letter-spacing: 2px;
 }
 
 .hero-role {
   color: #b0b0b0;
-  margin-top: 1rem;
   font-size: 200%;
+  letter-spacing: 1px;
 }
 
 /******ABOUT******/
 
 .photo {
-  padding-top: 3rem;
+  padding-top: 2rem;
+}
+
+#about .button-outline {
+  background: #ebebeb;
 }
 
 /******PORTFOLIO******/
@@ -118,6 +173,7 @@ https://www.youtube.com/watch?v=s6rF1Josk9M&ab_channel=Webdev */
 .contact-form {
   background: #ebebeb;
   padding: 1rem;
+  box-shadow: 5px 5px 22px -10px rgba(0, 0, 0, 1);
 }
 
 .contact-form .form-field {
@@ -139,6 +195,8 @@ https://www.youtube.com/watch?v=s6rF1Josk9M&ab_channel=Webdev */
 
 .contact-form .input-text:focus + .label,
 .contact-form .input-text:valid + .label {
+  -webkit-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
   transform: translateY(-20px);
 }
 
@@ -154,6 +212,9 @@ https://www.youtube.com/watch?v=s6rF1Josk9M&ab_channel=Webdev */
   line-height: 26px;
   font-weight: 400;
   cursor: text;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  -o-transition: transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -185,6 +246,8 @@ https://www.youtube.com/watch?v=s6rF1Josk9M&ab_channel=Webdev */
 }
 
 .social i:hover {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
   color: #4682b4;
 }
@@ -204,18 +267,46 @@ https://www.youtube.com/watch?v=s6rF1Josk9M&ab_channel=Webdev */
 /******MEDIA QUERIES******/
 
 @media (max-width: 500px) {
+  .navbar-brand {
+    padding-left: 1rem;
+  }
+
   .home-header {
-    font-size: 350%;
+    font-size: 325%;
     text-align: center;
   }
 
   .hero-role {
-    font-size: 150%;
+    font-size: 130%;
+  }
+
+  .contact-details {
+    padding-left: 2rem;
+  }
+
+  .social i {
+    padding: 1rem;
   }
 }
 
 @media (max-width: 767px) {
   .photo {
     padding: 0 0 2rem;
+  }
+}
+
+@media (max-width: 825px) {
+  .card-body .button {
+    font-size: 65%;
+    padding: 0.75em 1.25em;
+  }
+
+  #contact .button {
+    font-size: 85%;
+    padding: 0.75em 1.5em;
+  }
+
+  .icon {
+    font-size: 125%;
   }
 }
