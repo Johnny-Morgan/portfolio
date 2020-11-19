@@ -18,6 +18,8 @@ The customer goals of this website are:
 - Have a convenient way of contacting the site owner.
 - Easy navigation by providing a fixed navigation bar.
 
+![Image](assets/images/responsive_design.jpg)
+
 ## User Experience (UX)
 
 - ### User Stories
@@ -33,11 +35,22 @@ The customer goals of this website are:
 
   - The wireframes for this project can be found [here](https://github.com/Johnny-Morgan/portfolio/tree/master/assets/docs).
 
-- ### Color Scheme
+- ### Design
 
-  I used a blue steel color scheme for this project which I obtained from [schemecolor](https://www.schemecolor.com/blue-steel-color-scheme.php#download).
+  - #### Colour Scheme
 
-  ![Image](assets/images/palette.png)
+    I used a blue steel colour scheme for this project which I obtained from [schemecolor](https://www.schemecolor.com/blue-steel-color-scheme.php#download).
+
+    ![Image](assets/images/palette.png)
+
+  - #### Typography
+
+    The Roboto Condensed font is the main font used throughout the whole website with Sans Serif as the fallback font.
+    Roboto Condensed has a mechanical skeleton and the forms are largely geometric but the font also features friendly and open curves.
+
+  - #### Imagery
+
+    The large background hero image was chosen as it represents the passions of the site owner, namley coding and the outdoors.
 
 ## Technologies Used
 
