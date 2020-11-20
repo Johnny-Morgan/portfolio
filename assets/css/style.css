@@ -7,6 +7,23 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
+/******COLOURS******/
+
+:root {
+  --steelblue: #4682b4;
+  --pale-blue: #b6d4e7;
+  --light-grey: #ebebeb;
+  --medium-grey: #b0b0b0;
+}
+
+.light-blue-bg {
+  background-color: var(--pale-blue);
+}
+
+.light-grey-bg {
+  background-color: var(--light-grey);
+}
+
 /******GENERAL******/
 
 body {
@@ -14,6 +31,7 @@ body {
   padding: 0;
   font-family: "Roboto Condensed", sans-serif;
   line-height: 30px;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -31,7 +49,7 @@ section {
 
 .icon {
   font-size: 175%;
-  color: #4682b4;
+  color: var(--steelblue);
 }
 
 /******BUTTONS******/
@@ -52,12 +70,12 @@ section {
 }
 
 .button-solid {
-  background: #4682b4;
-  color: #ebebeb;
+  background: var(--steelblue);
+  color: var(--light-grey);
 }
 
 .button-solid:hover {
-  color: #b6d4e7;
+  color: var(--pale-blue);
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -65,26 +83,16 @@ section {
 
 .button-outline {
   background: #fff;
-  color: #4682b4;
-  border: 2px solid #4682b4;
+  color: var(--steelblue);
+  border: 2px solid var(--steelblue);
 }
 
 .button-outline:hover {
-  color: #b6d4e7;
-  background: #4682b4;
+  color: var(--pale-blue);
+  background: var(--steelblue);
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-}
-
-/******COLORS******/
-
-.light-blue {
-  background-color: #b6d4e7;
-}
-
-.light-grey {
-  background-color: #ebebeb;
 }
 
 /******NAVIGATION******/
@@ -133,13 +141,13 @@ section {
 
 .home-header {
   font-size: 500%;
-  color: #ebebeb;
+  color: var(--light-grey);
   margin-bottom: 2.5rem;
   letter-spacing: 2px;
 }
 
 .hero-role {
-  color: #b0b0b0;
+  color: var(--medium-grey);
   font-size: 200%;
   letter-spacing: 1px;
 }
@@ -149,8 +157,6 @@ section {
 .photo {
   padding-top: 2rem;
 }
-
-/******PORTFOLIO******/
 
 /******CONTACT ME******/
 
@@ -167,7 +173,7 @@ section {
 https://www.youtube.com/watch?v=s6rF1Josk9M&ab_channel=Webdev */
 
 .contact-form {
-  background: #ebebeb;
+  background: var(--light-grey);
   padding: 1rem;
   box-shadow: 5px 5px 22px -10px rgba(0, 0, 0, 1);
 }
@@ -182,11 +188,11 @@ https://www.youtube.com/watch?v=s6rF1Josk9M&ab_channel=Webdev */
   width: 100%;
   height: 32px;
   border-width: 0 0 2px 0;
-  border-color: #4682b4;
+  border-color: var(--steelblue);
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
-  background: #ebebeb;
+  background: var(--light-grey);
 }
 
 .contact-form .input-text:focus + .label,
@@ -216,8 +222,8 @@ https://www.youtube.com/watch?v=s6rF1Josk9M&ab_channel=Webdev */
 
 .contact-form .submit-btn {
   display: inline-block;
-  background: #4682b4;
-  color: #ebebeb;
+  background: var(--steelblue);
+  color: var(--light-grey);
   letter-spacing: 2px;
   padding: 0.5rem 1rem;
   border: none;
@@ -238,24 +244,24 @@ https://www.youtube.com/watch?v=s6rF1Josk9M&ab_channel=Webdev */
 .social i {
   font-size: 150%;
   padding: 1.25rem;
-  color: #b6d4e7;
+  color: var(--pale-blue);
 }
 
 .social i:hover {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  color: #4682b4;
+  color: var(--steelblue);
 }
 
 .copy p {
   margin: 0;
-  color: #ebebeb;
+  color: var(--light-grey);
   padding-bottom: 1rem;
 }
 
 .divider {
-  background-color: #4682b4;
+  background-color: var(--steelblue);
   width: 125px;
   height: 2px;
 }
