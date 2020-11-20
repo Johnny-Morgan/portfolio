@@ -166,29 +166,41 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
   4. Clicked on the Portfolio menu item to verify it linked to the portfolio section.
   5. Clicked on the Contact menu item to verify it linked to the contact me section.
   6. Clicked on the DOWNLOAD CV button to verify it opened a downloadable CV in a seperate tab.
+  7. Reduced screen size to a medium size to verify the download CV button was hidden.
+  8. Reduced screen size to a small size to verify that hamburger menu was appearing.
+  9. Clicked on hamburger menu to verify that menu items were appearing correctly.
 
 - About section
 
   1. Clicked on the MY GITHUB button to verify it redirected to my GitHub page in a seperate tab.
   2. Clicked on the DOWNLOAD CV button to verify it opened a downloadable CV in a seperate tab.
   3. Hovered over both buttons to verify the hover colour change worked as expected.
+  4. Reduced screen size to a small screen to verify that the photo was hidden.
 
 - Portfolio section
 
   1. Clicked on each SOURCE CODE button to verify they redirected to the correct GitHub repository in a seperate tab.
      - Clicking on the buttons failed to open a seperate tab. Added target="\_blank" to anchor tags to fix this issue.
   2. Hovered over each button to verify the hover colour change worked as expected.
+  3. Checked responsiveness for different screen sizes to ensure that the content for each project stacked on top of each other on smaller devices.
+     - On smaller screen sizes there was an issue with the source code buttons wrapping. To solve this the "text-nowrap" class was added to the anchor tags.
 
 - Contact Me section
 
   1. Tried to submit the form with empty fields to verify a warning message appeared.
   2. Tried to submit the form with an invalid email address to verify a warning message appeared.
   3. Hovered over the SEND MESSAGE submit button to verify the hover colour change worked as expected.
+  4. Checked responsiveness for different screen sizes to ensure that the contact details stacked on top of the form for smaller screen sizes.
+     - For cosmetic reasons a media query was added to reduce the size of the icons on smaller screen sizes. The padding-left property was
+       increased so the left hand side of the contact details was more in line with the left side of the contact form.
 
 - Footer
 
   1. Clicked on each icon to confirm the relevent page opened in a new tab.
   2. Hovered over each icon to verify the hover colour change worked as expected.
+  3. Checked responsiveness of icons for all screen sizes.
+     - An issue found was that on smaller screen sizes the social media icons wrapped onto next line. To solve this
+       a media query was added to reduce the padding around the icons.
 
 ## Credits
 
@@ -199,5 +211,7 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 - All other photos/images were created by the developer.
 
 ### Code
+
+- The code for the navbar is based on the navbar in the Code Institute [Whiskey Drop](https://www.youtube.com/watch?v=2z3RHvIhSwE&ab_channel=MediaUpload) project.
 
 - The CSS code for the contact form was taken from the YouTube channel [Web dev](https://www.youtube.com/watch?v=s6rF1Josk9M&ab_channel=Webdev) and edited.
