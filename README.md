@@ -108,7 +108,7 @@ The customer goals of this website are:
 
   - GitHub is used to store the project's code after being pushed from Git.
 
-- [Balsamiq](https://github.com/)
+- [Balsamiq](https://balsamiq.com/)
 
   - Balsamiq was used to create the wireframes during the design process.
 
@@ -251,7 +251,7 @@ The customer goals of this website are:
 
 ## Deployment
 
-## Deploying to GitHub Pages
+### Deploying to GitHub Pages
 
 This project was deployed to GitHub Pages using the following process:
 
@@ -262,7 +262,7 @@ This project was deployed to GitHub Pages using the following process:
 5. Click the Save button.
 6. The site is now published and the [link](https://johnny-morgan.github.io/portfolio/) is provided.
 
-## Forking the GitHub Repository
+### Forking the GitHub Repository
 
 Forking a repository allows you to freely experiment with changes without affecting the original project.
 This project can be forked using the following process:
@@ -271,7 +271,7 @@ This project can be forked using the following process:
 2. At the top right-hand side of the page locate and click on the Fork button.
 3. Further information can be found [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo).
 
-## Cloning the GitHub Repository
+### Cloning the GitHub Repository
 
 1. Log in to GitHub and locate the projects [repository](https://github.com/Johnny-Morgan/portfolio).
 2. Click on the Code button which is located above the list of project files.
