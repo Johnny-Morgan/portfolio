@@ -58,6 +58,27 @@ The customer goals of this website are:
 
     The large background hero image was chosen as it represents the passions of the site owner, namley coding and the outdoors.
 
+## Features
+
+### Existing Features
+
+- A single page website with four sections.
+- Designed and written in HTML5, CSS3 and Bootstrap 4.
+- A fixed navigation bar.
+- Fully responsive on all devices.
+
+### Features to Implement
+
+- A blog section could be added. This would attract repeat visits and help to build the site owners online presence.
+- A functional contact form so when a visitor submits a message they receive a confirmation message and email.
+
+### Deviations from Wireframes
+
+- In the About Me section I decided to change the "Get In Touch" button with a button that directs the visitor to my GitHub page. 
+The reason being that the paragraph above the button mentions my GitHub profile where the visitor can view my projects.
+
+- Buttons were added to each project card in the portfolio section to redirect the visitor to the GitHub repository for each project. 
+
 ## Technologies Used
 
 ### Languages Used
