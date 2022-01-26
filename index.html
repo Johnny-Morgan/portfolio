@@ -1,314 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Enter your description here" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
 
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>John Morgan Portfolio</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-  <body>
-    <!-- Navigation -->
-    <!-- CREDIT - navigation based on Code Institute Whiskey Drop project -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top">
-      <a href="index.html" class="navbar-brand">John Morgan</a>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>John Morgan Portfolio</title>
+</head>
 
-      <button
-        class="navbar-toggler ml-auto"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item mr-2 d-block d-sm-none">
-            <a class="nav-link" href="assets/docs/cv.pdf" target="_blank"
-              >Download CV</a
-            >
-          </li>
-        </ul>
+<body>
+  <!-- Navigation -->
+  <!-- CREDIT - navigation based on Code Institute Whiskey Drop project -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top">
+    <a href="index.html" class="navbar-brand">John Morgan</a>
+
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mr-2">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item mr-2">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item mr-2">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item mr-2">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item mr-2 d-block d-sm-none">
+          <a class="nav-link" href="assets/docs/cv.pdf" target="_blank">Download CV</a>
+        </li>
+      </ul>
+    </div>
+    <div class="d-none d-md-block">
+      <a href="assets/docs/cv.pdf" target="_blank" class="button button-solid">Download CV</a>
+    </div>
+  </nav>
+  <!-- End Navigation -->
+
+  <!-- Home -->
+  <section id="home" class="container-fluid home-container">
+    <div class="opaque-overlay"></div>
+    <div class="row">
+      <div class="col-12">
+        <h1 class="home-header animate__animated animate__bounce">
+          Hi, I'm John
+        </h1>
+        <p class="hero-role">Full Stack Software Developer</p>
       </div>
-      <div class="d-none d-md-block">
-        <a href="assets/docs/cv.pdf" target="_blank" class="button button-solid"
-          >Download CV</a
-        >
-      </div>
-    </nav>
-    <!-- End Navigation -->
+    </div>
+  </section>
+  <!-- End Home -->
 
-    <!-- Home -->
-    <section class="container-fluid home-container">
-      <div class="opaque-overlay"></div>
+  <!-- About -->
+  <section id="about" class="light-blue-bg">
+    <div class="col-12">
+      <h1 class="text-center pt-5">About Me</h1>
+      <hr class="divider" />
       <div class="row">
-        <div class="col-12">
-          <h1 class="home-header animate__animated animate__bounce">
-            Hi, I'm John
-          </h1>
-          <p class="hero-role">Full Stack Software Developer</p>
-        </div>
-      </div>
-    </section>
-    <!-- End Home -->
-
-    <!-- About -->
-    <section id="about" class="light-blue-bg">
-      <div class="col-12">
-        <h1 class="text-center pt-5">About Me</h1>
-        <hr class="divider" />
-        <div class="row">
-          <div class="col-md-6 text-center">
-            <p class="mx-5 my-5">
-              I am currently seeking a role as a junior software developer. I am
-              skilled in Java and Python and I am studying for a diploma in full
-              stack software development with the Code Institute to improve both
-              my front end and backend skills. You can see some of my projects
-              below as well as on my GitHub profile. When I'm not coding you can
-              find me hiking and bouldering in the Wicklow mountains!
-            </p>
-            <div class="row mx-5 my-5">
-              <div class="col py-3">
-                <a
-                  href="https://github.com/Johnny-Morgan"
-                  target="_blank"
-                  class="button button-solid text-nowrap"
-                  >My GitHub</a
-                >
-              </div>
-              <div class="col py-3">
-                <a
-                  href="assets/docs/cv.pdf"
-                  target="_blank"
-                  class="button button-outline text-nowrap"
-                  >Download CV</a
-                >
-              </div>
+        <div class="col-md-6 text-center">
+          <p class="mx-5 my-5">
+            I am currently seeking a role as a junior software developer. I am
+            skilled in Java and Python and I am studying for a diploma in full
+            stack software development with the Code Institute to improve both
+            my front end and backend skills. You can see some of my projects
+            below as well as on my GitHub profile. When I'm not coding you can
+            find me hiking and bouldering in the Wicklow mountains!
+          </p>
+          <div class="row mx-5 my-5">
+            <div class="col py-3">
+              <a href="https://github.com/Johnny-Morgan" target="_blank" class="button button-solid text-nowrap">My
+                GitHub</a>
+            </div>
+            <div class="col py-3">
+              <a href="assets/docs/cv.pdf" target="_blank" class="button button-outline text-nowrap">Download CV</a>
             </div>
           </div>
-          <div class="col-md-6 text-center d-none d-sm-block photo">
-            <img
-              src="assets/images/photo.png"
-              class="rounded-circle"
-              alt="John Morgan Photo"
-              height="250"
-              width="250"
-            />
-          </div>
+        </div>
+        <div class="col-md-6 text-center d-none d-sm-block photo">
+          <img src="assets/images/photo.png" class="rounded-circle" alt="John Morgan Photo" height="250" width="250" />
         </div>
       </div>
-    </section>
-    <!-- End About -->
+    </div>
+  </section>
+  <!-- End About -->
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="light-grey-bg">
-      <div class="col-12">
-        <h1 class="text-center pt-5">Portfolio</h1>
-        <hr class="divider" />
-      </div>
+  <!-- Portfolio -->
+  <section id="portfolio" class="light-grey-bg">
+    <div class="col-12">
+      <h1 class="text-center pt-5">Portfolio</h1>
+      <hr class="divider" />
+    </div>
 
-      <div class="card-deck px-5 py-5">
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="assets/images/screenshot1.png"
-            alt="Screenshot of PyQt5 project"
-          />
-          <div class="card-body text-center mb-3">
-            <h2 class="card-title">PyQt5 Project</h2>
-            <p class="card-text py-3">
-              A desktop application that stores the mountains I have climbed in
-              a SQLite database and displays them in a table. A map of the
-              mountains can be generated in OpenStreetMap.
-            </p>
-            <a
-              href="https://github.com/Johnny-Morgan/mountains"
-              class="button button-outline text-nowrap"
-              target="_blank"
-              >Source Code</a
-            >
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="assets/images/screenshot2.png"
-            alt="Screenshot of Django project"
-          />
-          <div class="card-body text-center">
-            <h2 class="card-title">Django Project</h2>
-            <p class="card-text py-3">
-              A web application built with the Django Framework. The app allows
-              the user to add mountains and hikes and displays statistics sush
-              as the number of mountains climbed or the average hike length.
-            </p>
-            <a
-              href="https://github.com/Johnny-Morgan/django-projects/tree/master/mountains"
-              class="button button-outline text-nowrap"
-              target="_blank"
-              >Source Code</a
-            >
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="assets/images/screenshot3.png"
-            alt="Screenshot of Android project"
-          />
-          <div class="card-body text-center">
-            <h2 class="card-title">Android Project</h2>
-            <p class="card-text py-3">
-              A brain training game that asks the user to solve a series of
-              random maths questions and displays their score on the screen. The
-              game ends when the timer runs out.
-            </p>
-            <a
-              href="https://github.com/Johnny-Morgan/Android-apps/tree/master/Brain%20Trainer"
-              class="button button-outline text-nowrap"
-              target="_blank"
-              >Source Code</a
-            >
-          </div>
+    <div class="card-deck px-5 py-5">
+      <div class="card">
+        <img class="card-img-top" src="assets/images/screenshot1.png" alt="Screenshot of PyQt5 project" />
+        <div class="card-body text-center mb-3">
+          <h2 class="card-title">PyQt5 Project</h2>
+          <p class="card-text py-3">
+            A desktop application that stores the mountains I have climbed in
+            a SQLite database and displays them in a table. A map of the
+            mountains can be generated in OpenStreetMap.
+          </p>
+          <a href="https://github.com/Johnny-Morgan/mountains" class="button button-outline text-nowrap"
+            target="_blank">Source Code</a>
         </div>
       </div>
-    </section>
-    <!-- End Portfolio -->
+      <div class="card">
+        <img class="card-img-top" src="assets/images/screenshot2.png" alt="Screenshot of Django project" />
+        <div class="card-body text-center">
+          <h2 class="card-title">Django Project</h2>
+          <p class="card-text py-3">
+            A web application built with the Django Framework. The app allows
+            the user to add mountains and hikes and displays statistics sush
+            as the number of mountains climbed or the average hike length.
+          </p>
+          <a href="https://github.com/Johnny-Morgan/django-projects/tree/master/mountains"
+            class="button button-outline text-nowrap" target="_blank">Source Code</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/images/screenshot3.png" alt="Screenshot of Android project" />
+        <div class="card-body text-center">
+          <h2 class="card-title">Android Project</h2>
+          <p class="card-text py-3">
+            A brain training game that asks the user to solve a series of
+            random maths questions and displays their score on the screen. The
+            game ends when the timer runs out.
+          </p>
+          <a href="https://github.com/Johnny-Morgan/Android-apps/tree/master/Brain%20Trainer"
+            class="button button-outline text-nowrap" target="_blank">Source Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Portfolio -->
 
-    <!-- Contact -->
-    <section id="contact" class="light-blue-bg">
-      <div class="col-12">
-        <h1 class="text-center pt-5">Contact Me</h1>
-        <hr class="divider" />
-      </div>
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-lg-4 contact-details">
-            <div class="row my-2">
-              <div class="col-2">
-                <i class="fas fa-phone icon"></i>
-              </div>
-              <div class="col-10">
-                <p>++353 86 060 4249</p>
-              </div>
+  <!-- Contact -->
+  <section id="contact" class="light-blue-bg">
+    <div class="col-12">
+      <h1 class="text-center pt-5">Contact Me</h1>
+      <hr class="divider" />
+    </div>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-4 contact-details">
+          <div class="row my-2">
+            <div class="col-2">
+              <i class="fas fa-phone icon"></i>
             </div>
-            <div class="row my-2">
-              <div class="col-2">
-                <i class="fas fa-envelope icon"></i>
-              </div>
-              <div class="col-10">
-                <p>jwjmorgan@gmail.com</p>
-              </div>
-            </div>
-            <div class="row my-2">
-              <div class="col-2">
-                <i class="fas fa-map-marked icon"></i>
-              </div>
-              <div class="col-10">
-                <p>Rathcoole, Co. Dublin</p>
-              </div>
+            <div class="col-10">
+              <p>++353 86 060 4249</p>
             </div>
           </div>
+          <div class="row my-2">
+            <div class="col-2">
+              <i class="fas fa-envelope icon"></i>
+            </div>
+            <div class="col-10">
+              <p>jwjmorgan@gmail.com</p>
+            </div>
+          </div>
+          <div class="row my-2">
+            <div class="col-2">
+              <i class="fas fa-map-marked icon"></i>
+            </div>
+            <div class="col-10">
+              <p>Rathcoole, Co. Dublin</p>
+            </div>
+          </div>
+        </div>
 
-          <div class="col-lg-8">
-            <div class="container">
-              <form>
-                <div class="row contact-form">
-                  <div class="col-lg-12 form-field">
-                    <input type="text" id="name" class="input-text" required />
-                    <label for="name" class="label">Name</label>
-                  </div>
-                  <div class="col-lg-12 form-field">
-                    <input
-                      type="email"
-                      id="email"
-                      class="input-text"
-                      required
-                    />
-                    <label for="email" class="label">Email</label>
-                  </div>
-                  <div class="col-lg-12 form-field">
-                    <input
-                      type="text"
-                      id="message"
-                      class="input-text"
-                      required
-                    />
-                    <label for="name" class="label">Message</label>
-                  </div>
-                  <div class="col-lg-12 form-field pt-3">
-                    <input
-                      type="submit"
-                      value="Send Message"
-                      class="button button-solid"
-                    />
-                  </div>
+        <div class="col-lg-8">
+          <div class="container">
+            <form>
+              <div class="row contact-form">
+                <div class="col-lg-12 form-field">
+                  <input type="text" id="name" class="input-text" required />
+                  <label for="name" class="label">Name</label>
                 </div>
-              </form>
-            </div>
+                <div class="col-lg-12 form-field">
+                  <input type="email" id="email" class="input-text" required />
+                  <label for="email" class="label">Email</label>
+                </div>
+                <div class="col-lg-12 form-field">
+                  <input type="text" id="message" class="input-text" required />
+                  <label for="name" class="label">Message</label>
+                </div>
+                <div class="col-lg-12 form-field pt-3">
+                  <input type="submit" value="Send Message" class="button button-solid" />
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End Contact -->
+    </div>
+  </section>
+  <!-- End Contact -->
 
-    <!-- Footer-->
-    <footer class="bg-dark">
-      <div class="social">
-        <a href="https://www.facebook.com/" target="_blank">
-          <i class="fab fa-facebook-square"></i>
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-          <i class="fab fa-instagram-square"></i>
-        </a>
-        <a href="https://www.twitter.com/" target="_blank">
-          <i class="fab fa-twitter-square"></i>
-        </a>
-        <a href="https://github.com/Johnny-Morgan" target="_blank">
-          <i class="fab fa-github-square"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/john--morgan/" target="_blank">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </div>
-      <div class="copy">
-        <p>&copy; John Morgan 2020</p>
-      </div>
-    </footer>
-    <!-- End Footer-->
+  <!-- Footer-->
+  <footer class="bg-dark">
+    <div class="social">
+      <a href="https://www.facebook.com/" target="_blank">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <i class="fab fa-instagram-square"></i>
+      </a>
+      <a href="https://www.twitter.com/" target="_blank">
+        <i class="fab fa-twitter-square"></i>
+      </a>
+      <a href="https://github.com/Johnny-Morgan" target="_blank">
+        <i class="fab fa-github-square"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/john--morgan/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <div class="copy">
+      <p>&copy; John Morgan 2020</p>
+    </div>
+  </footer>
+  <!-- End Footer-->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
 </html>
