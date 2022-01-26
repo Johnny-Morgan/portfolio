@@ -1,5 +1,6 @@
 const homeSection = document.querySelector('#home')
 const nav = document.querySelector('.navbar');
+const navHeight = nav.getBoundingClientRect().height;
 
 const stickyNav = (entries) => {
     const [entry] = entries;
@@ -12,7 +13,7 @@ const stickyNav = (entries) => {
 const homeObserver = new IntersectionObserver(stickyNav, {
     root: null,
     threshold: 0,
-    rootMargin: '-62px',
+    rootMargin: `-${navHeight}px`,
 });
 homeObserver.observe(homeSection);
 
